@@ -1,0 +1,36 @@
+{
+"__comment": "Designed by Bunnyman with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"parent": "block/block",
+"textures": {
+    "particle": "block/pottop",
+    "end_stone": "block/potbottom",
+    "texture": "block/potside",
+    "endframe_eye": "block/potthing"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#end_stone" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
+        "north": { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 4, 16, 4 ],
+    "to": [ 12, 19, 12 ],
+    "faces": {
+        "down":  { "uv": [ 12, 12, 4, 4 ], "texture": "#endframe_eye" },
+        "up":    { "uv": [ 4, 4, 12, 12 ], "texture": "#endframe_eye" },
+        "north": { "uv": [ 4, 0, 12, 3 ], "texture": "#endframe_eye" },
+        "south": { "uv": [ 4, 0, 12, 3 ], "texture": "#endframe_eye" },
+        "west":  { "uv": [ 4, 0, 12, 3 ], "texture": "#endframe_eye" },
+        "east":  { "uv": [ 4, 0, 12, 3 ], "texture": "#endframe_eye" }
+    }
+}
+]
+}

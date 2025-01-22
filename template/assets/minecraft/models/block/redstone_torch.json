@@ -1,0 +1,152 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "bottom": "wynn/candle_wall",
+        "candle": "block/redstone_torch",
+        "particle": "block/black_wool",
+        "flame": "wynn/candle_flame"
+    },
+    "elements": [
+        {
+            "from": [6,2,6],
+            "to": [10,8,10],
+            "faces": {
+                "up": {
+                    "uv": [0,12,4,16],
+                    "texture": "#candle"
+                },
+                "west": {
+                    "uv": [6,10,10,16],
+                    "texture": "#candle"
+                },
+                "east": {
+                    "uv": [6,10,10,16],
+                    "texture": "#candle"
+                },
+                "north": {
+                    "uv": [6,10,10,16],
+                    "texture": "#candle"
+                },
+                "south": {
+                    "uv": [6,10,10,16],
+                    "texture": "#candle"
+                }
+            }
+        },
+        {
+            "from": [7.5,8,7.5],
+            "to": [8.5,9,8.5],
+            "faces": {
+                "up": {
+                    "uv": [8,9,9,10],
+                    "texture": "#candle"
+                },
+                "west": {
+                    "uv": [8,9,9,10],
+                    "texture": "#candle"
+                },
+                "east": {
+                    "uv": [8,9,9,10],
+                    "texture": "#candle"
+                },
+                "north": {
+                    "uv": [8,9,9,10],
+                    "texture": "#candle"
+                },
+                "south": {
+                    "uv": [8,9,9,10],
+                    "texture": "#candle"
+                }
+            }
+        },
+        {
+            "from": [5,0,5],
+            "to": [11,1,11],
+            "faces": {
+                "up": {
+                    "uv": [4,8,10,14],
+                    "texture": "#bottom"
+                },
+                "down": {
+                    "uv": [4,8,10,14],
+                    "texture": "#bottom"
+                },
+                "west": {
+                    "uv": [10,13,16,14],
+                    "texture": "#bottom"
+                },
+                "east": {
+                    "uv": [10,13,16,14],
+                    "texture": "#bottom"
+                },
+                "north": {
+                    "uv": [10,13,16,14],
+                    "texture": "#bottom"
+                },
+                "south": {
+                    "uv": [10,13,16,14],
+                    "texture": "#bottom"
+                }
+            }
+        },
+        {
+            "from": [6,1,6],
+            "to": [10,2,10],
+            "faces": {
+                "down": {
+                    "uv": [0,12,4,16],
+                    "texture": "#bottom"
+                },
+                "west": {
+                    "uv": [0,11,4,12],
+                    "texture": "#bottom"
+                },
+                "east": {
+                    "uv": [0,11,4,12],
+                    "texture": "#bottom"
+                },
+                "north": {
+                    "uv": [0,11,4,12],
+                    "texture": "#bottom"
+                },
+                "south": {
+                    "uv": [0,11,4,12],
+                    "texture": "#bottom"
+                }
+            }
+        },
+        {
+            "from": [7.9,8,6],
+            "to": [8.1,12,10],
+			"shade": false,
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "faces": {
+                "west": {
+					"uv": [0,0,16,16],
+                    "texture": "#flame"
+                },
+                "east": {
+					"uv": [0,0,16,16],
+                    "texture": "#flame"
+                }
+            }
+        },
+        {
+            "from": [6,8,7.9],
+            "to": [10,12,8.1],
+			"shade": false,
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "faces": {
+                "north": {
+					"uv": [0,0,16,16],
+                    "texture": "#flame"
+                },
+                "south": {
+					"uv": [0,0,16,16],
+                    "texture": "#flame"
+                }
+            }
+        }
+    ]
+}

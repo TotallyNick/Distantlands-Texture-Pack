@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "item/roman_plain",
+	"textures": {
+		"0": "item/roman_base",
+		"2": "item/roman_pattern1",
+		"particle": "item/roman_base"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/warped_trapdoor_open_u",
+	"textures": {
+		"0": "block/warped_trapdoor_menu",
+		"particle": "block/warped_trapdoor_menu"
+	}
+}

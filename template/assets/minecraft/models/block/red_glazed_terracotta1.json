@@ -1,0 +1,7 @@
+{
+    "parent": "block/glazed_terracotta",
+    "textures": {
+        "top": "block/glazed_terracotta_red_top2"
+        "side": "block/glazed_terracotta_red_side2"
+    }
+}

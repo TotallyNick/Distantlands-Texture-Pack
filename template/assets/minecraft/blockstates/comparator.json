@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=south,mode=compare,powered=false": { "model": "block/bottle0" },
+        "facing=west,mode=compare,powered=false": { "model": "block/bottle1", "y": 90 },
+        "facing=north,mode=compare,powered=false": { "model": "block/bottle2", "y": 180 },
+        "facing=east,mode=compare,powered=false": { "model": "block/bottle3", "y": 270 },
+        "facing=south,mode=subtract,powered=false": { "model": "block/bottle4" },
+        "facing=west,mode=subtract,powered=false": { "model": "block/bottle5", "y": 90 },
+        "facing=north,mode=subtract,powered=false": { "model": "block/bottle6", "y": 180 },
+        "facing=east,mode=subtract,powered=false": { "model": "block/bottle7", "y": 270 },
+        "facing=south,mode=compare,powered=true": { "model": "block/comparator_on" },
+        "facing=west,mode=compare,powered=true": { "model": "block/comparator_on", "y": 90 },
+        "facing=north,mode=compare,powered=true": { "model": "block/comparator_on", "y": 180 },
+        "facing=east,mode=compare,powered=true": { "model": "block/comparator_on", "y": 270 },
+        "facing=south,mode=subtract,powered=true": { "model": "block/comparator_on_subtract" },
+        "facing=west,mode=subtract,powered=true": { "model": "block/comparator_on_subtract", "y": 90 },
+        "facing=north,mode=subtract,powered=true": { "model": "block/comparator_on_subtract", "y": 180 },
+        "facing=east,mode=subtract,powered=true": { "model": "block/comparator_on_subtract", "y": 270 }
+    }
+}

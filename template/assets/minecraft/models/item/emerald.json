@@ -1,0 +1,14 @@
+{
+    "parent": "block/cross2",
+    "textures": {
+        "cross": "item/emerald",
+		"layer0": "item/emerald"
+    },
+	"display": {
+        "fixed": {
+            "rotation": [ 270, 0, 0 ],
+			"translation": [ 0, 0, -14],
+            "scale": [ 2, 2, 2 ]
+        }
+    }
+}

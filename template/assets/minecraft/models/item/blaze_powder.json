@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated2x",
+    "textures": {
+        "layer0": "item/blaze_powder"
+    }
+}

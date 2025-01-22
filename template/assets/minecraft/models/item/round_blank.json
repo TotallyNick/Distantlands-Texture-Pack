@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "item/round_plain",
+	"textures": {
+		"1": "item/round_base",
+		"3": "item/round_pattern1",
+		"particle": "item/round_base"
+	}
+}

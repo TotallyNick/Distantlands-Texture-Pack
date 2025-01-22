@@ -1,0 +1,23 @@
+{
+"__comment": "Designed by Bunnyman with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"parent": "block/block",
+"textures": {
+    "particle": "block/pottop",
+    "end_stone": "block/potbottom",
+    "texture": "block/potside"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#end_stone" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
+        "north": { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 3, 16, 16 ], "texture": "#texture" }
+    }
+}
+]
+}

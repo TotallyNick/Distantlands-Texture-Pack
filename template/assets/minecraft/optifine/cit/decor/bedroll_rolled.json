@@ -1,0 +1,56 @@
+{
+	"__comment": "~ Elsweyr",
+	"textures": {
+		"particle": "decorations/bedroll_rolled",
+		"texture": "decorations/bedroll_rolled"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Pillow",
+			"from": [ 0, 0, 6 ],
+			"to": [ 16, 4, 10 ],
+			"faces": {
+				"down": { "uv": [ 16, 4, 0, 8 ], "texture": "#texture" },
+				"up": { "uv": [ 16, 12, 0, 8 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 12, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 16, 4, 0, 8 ], "texture": "#texture" },
+				"west": { "uv": [ 12, 0, 16, 3.999999 ], "texture": "#texture" },
+				"east": { "uv": [ 16, 0, 12, 3.999999 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 0, -90 ],
+			"translation":  [ 2.7826, 0.7526, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 0, 0, -90 ],
+			"translation":  [ 2.7826, 0.7526, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 8, 108, 0 ],
+			"translation":  [ 0, 4.2608, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 8, 108, 0 ],
+			"translation":  [ 0, 4.2608, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"gui": {
+			"rotation":  [ 36, 154, 0 ],
+			"translation":  [ 0, 2.0869, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3.6358, 0 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 12, -2 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

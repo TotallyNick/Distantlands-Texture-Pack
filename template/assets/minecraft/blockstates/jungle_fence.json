@@ -1,0 +1,38 @@
+{
+    "variants": {
+        "east=false,north=false,south=false,west=false": { "model": "block/jungle_fence_post" },
+        "east=false,north=true,south=false,west=false": [
+            { "model": "block/jungle_fence_ns", "weight": 200 },
+            { "model": "block/jungle_fence_ns_1", "weight": 40 }
+        ],
+        "east=true,north=false,south=false,west=false": [
+            { "model": "block/jungle_fence_ns", "y": 90, "weight": 200 },
+            { "model": "block/jungle_fence_ns_1", "y": 90, "weight": 40 }
+        ],
+        "east=false,north=false,south=true,west=false": [
+            { "model": "block/jungle_fence_ns", "weight": 200 },
+            { "model": "block/jungle_fence_ns_1", "weight": 40 }
+        ],
+        "east=false,north=false,south=false,west=true": [
+            { "model": "block/jungle_fence_ns", "y": 90, "weight": 200 },
+            { "model": "block/jungle_fence_ns_1", "y": 90, "weight": 40 }
+        ],
+        "east=true,north=true,south=false,west=false": { "model": "block/jungle_fence_ne" },
+        "east=true,north=false,south=true,west=false": { "model": "block/jungle_fence_ne_90", "y": 90 },
+        "east=false,north=false,south=true,west=true": { "model": "block/jungle_fence_ne_180", "y": 180 },
+        "east=false,north=true,south=false,west=true": { "model": "block/jungle_fence_ne_270", "y": 270 },
+        "east=false,north=true,south=true,west=false": [
+            { "model": "block/jungle_fence_ns", "weight": 200 },
+            { "model": "block/jungle_fence_ns_1", "weight": 40 }
+        ],
+        "east=true,north=false,south=false,west=true": [
+            { "model": "block/jungle_fence_ns", "y": 90, "weight": 200 },
+            { "model": "block/jungle_fence_ns_1", "y": 90, "weight": 40 }
+        ],
+        "east=true,north=true,south=true,west=false": { "model": "block/jungle_fence_nse" },
+        "east=true,north=false,south=true,west=true": { "model": "block/jungle_fence_nse_90", "y": 90 },
+        "east=false,north=true,south=true,west=true": { "model": "block/jungle_fence_nse_180", "y": 180 },
+        "east=true,north=true,south=false,west=true": { "model": "block/jungle_fence_nse_270", "y": 270 },
+        "east=true,north=true,south=true,west=true": { "model": "block/jungle_fence_nsew" }
+    }
+}

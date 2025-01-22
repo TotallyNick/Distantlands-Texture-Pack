@@ -1,0 +1,129 @@
+{
+"__comment": "3D Mesh designed with BDcraft Cubik - Version PRO 0.65 Beta",
+"ambientocclusion": false,
+"textures": {
+    "particle": "block/dark_oak_fence",
+    "texture": "block/dark_oak_fence",
+    "planks": "block/fence_plank",
+    "iron": "block/iron_block"
+},
+"elements": [ 
+{
+    "from": [ 5, 11, 0.5 ],
+    "to": [ 6, 11.5, 1.5 ],
+    "__comment": "Holder thing2",
+    "faces": {
+        "down":  { "uv": [ 5, 15.5, 6, 14.5 ], "texture": "#iron" },
+        "up":    { "uv": [ 5, 14.5, 6, 15.5 ], "texture": "#iron" },
+        "north": { "uv": [ 6.5, 14.5, 7.5, 15 ], "texture": "#iron" },
+        "south": { "uv": [ 6, 14.5, 7, 15 ], "texture": "#iron" },
+        "west":  { "uv": [ 9.5, 1, 10.5, 1.5 ], "texture": "#iron" },
+        "east":  { "uv": [ 5.5, 1, 6.5, 1.5 ], "texture": "#iron" }
+    }
+},
+{
+    "from": [ 4.5, 11, 0.5 ],
+    "to": [ 5, 13, 1.5 ],
+    "__comment": "Holder thing2",
+    "faces": {
+        "down":  { "uv": [ 5, 7, 5.5, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 5, 8, 5.5, 9 ], "texture": "#iron" },
+        "north": { "uv": [ 10.5, 6.5, 11, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 5, 6, 5.5, 8 ], "texture": "#iron" },
+        "west":  { "uv": [ 2.5, 9, 3.5, 11 ], "texture": "#iron" },
+        "east":  { "uv": [ 3, 6, 4, 8 ], "texture": "#iron" }
+    }
+},
+{
+    "from": [ 5, 11.5, 0 ],
+    "to": [ 6, 14, 16 ],
+    "__comment": "Plank",
+    "faces": {
+        "down":  { "uv": [ 0, 16, 1, 0 ], "rotation": 180, "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 1, 16 ], "rotation": 180, "texture": "#texture" },
+        "north": { "uv": [ 4, 0.5, 3, 3 ], "texture": "#texture" },
+        "south": { "uv": [ 4.5, 0.5, 5.5, 3 ], "texture": "#texture" },
+        "west":  { "uv": [ 6.5, 0, 9, 16 ], "rotation": 90, "texture": "#texture" },
+        "east":  { "uv": [ 9, 0, 6.5, 16 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 12.5, 16 ],
+    "to": [ 6, 13.5, 16.5 ],
+    "__comment": "Plank",
+    "faces": {
+        "down":  { "uv": [ 5, 13, 6, 12.5 ], "texture": "#planks" },
+        "up":    { "uv": [ 5, 13, 6, 13.5 ], "texture": "#planks" },
+        "north": { "uv": [ 6, 2, 5, 3 ], "texture": "#planks" },
+        "south": { "uv": [ 5, 2, 6, 3 ], "texture": "#planks" },
+        "west":  { "uv": [ 15, 2, 15.5, 3 ], "texture": "#planks" },
+        "east":  { "uv": [ 15.5, 2, 15, 3 ], "texture": "#planks" }
+    }
+},
+{
+    "from": [ 5, 11, 14.5 ],
+    "to": [ 6, 11.5, 15.5 ],
+    "__comment": "Holder thing",
+    "faces": {
+        "down":  { "uv": [ 8, 15.5, 9, 14.5 ], "texture": "#iron" },
+        "up":    { "uv": [ 2, 14, 3, 15 ], "texture": "#iron" },
+        "north": { "uv": [ 8.5, 14.5, 9.5, 15 ], "texture": "#iron" },
+        "south": { "uv": [ 4.5, 14.5, 5.5, 15 ], "texture": "#iron" },
+        "west":  { "uv": [ 4.5, 1, 5.5, 1.5 ], "texture": "#iron" },
+        "east":  { "uv": [ 10.5, 1, 11.5, 1.5 ], "texture": "#iron" }
+    }
+},
+{
+    "from": [ 4.5, 11, 14.5 ],
+    "to": [ 5, 13, 15.5 ],
+    "__comment": "Holder thing",
+    "faces": {
+        "down":  { "uv": [ 10.5, 8, 11, 7 ], "texture": "#iron" },
+        "up":    { "uv": [ 5, 6, 5.5, 7 ], "texture": "#iron" },
+        "north": { "uv": [ 10.5, 8, 11, 10 ], "texture": "#iron" },
+        "south": { "uv": [ 5, 7.5, 5.5, 9.5 ], "texture": "#iron" },
+        "west":  { "uv": [ 2.5, 6.5, 3.5, 8.5 ], "texture": "#iron" },
+        "east":  { "uv": [ 3, 8, 4, 10 ], "texture": "#iron" }
+    }
+},
+{
+    "from": [ 6, 0, 0 ],
+    "to": [ 10, 16, 2 ],
+    "__comment": "Posts",
+    "faces": {
+        "down":  { "uv": [ 6, 0, 10, 2 ], "texture": "#texture" },
+        "up":    { "uv": [ 6, 0, 10, 2 ], "texture": "#texture" },
+        "north": { "uv": [ 10, 0, 6, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 2, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 2, 0, 0, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 6, 0, 14 ],
+    "to": [ 10, 16, 16 ],
+    "__comment": "Posts*",
+    "faces": {
+        "down":  { "uv": [ 6, 14, 10, 16 ], "texture": "#texture" },
+        "up":    { "uv": [ 6, 14, 10, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 10, 0, 6, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 14, 0, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 16, 0, 14, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 5, 11.5, -0.5 ],
+    "to": [ 6, 13.5, 0 ],
+    "__comment": "Plank",
+    "faces": {
+        "down":  { "uv": [ 5, 3, 6, 2.5 ], "texture": "#planks" },
+        "up":    { "uv": [ 5, 1.5, 6, 2 ], "texture": "#planks" },
+        "north": { "uv": [ 6, 2, 5, 4 ], "texture": "#planks" },
+        "south": { "uv": [ 5, 2, 6, 4 ], "texture": "#planks" },
+        "west":  { "uv": [ 0.5, 2, 1, 4 ], "texture": "#planks" },
+        "east":  { "uv": [ 1, 2, 0.5, 4 ], "texture": "#planks" }
+    }
+}
+]
+}

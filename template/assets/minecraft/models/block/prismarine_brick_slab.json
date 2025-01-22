@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/roof_tiles",
+        "top": "block/roof_tiles",
+        "side": "block/roof_tiles"
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "item/hex_plain",
+	"textures": {
+		"0": "item/hex_base",
+		"2": "item/hex_pattern1",
+		"particle": "item/hex_base"
+	}
+}

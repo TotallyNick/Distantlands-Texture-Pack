@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":  { "model": "orange_glazed_terracotta" },
+        "axis=z":   { "model": "orange_glazed_terracotta", "x": 90 },
+        "axis=x":   { "model": "orange_glazed_terracotta", "x": 90, "y": 90 }
+    }
+}
+
