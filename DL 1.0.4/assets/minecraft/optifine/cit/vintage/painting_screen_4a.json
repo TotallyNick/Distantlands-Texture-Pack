@@ -1,0 +1,7 @@
+{
+	"parent": "./painting_screen_4",
+	"textures": {
+		"0": "hc_screen_1_flower2",
+		"1": "hc_screen_1_base"
+	}
+}

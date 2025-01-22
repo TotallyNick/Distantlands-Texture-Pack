@@ -1,0 +1,6 @@
+{
+	"parent": "./clock_wall_3",
+	"textures": {
+		"0": "hc_wallclock_3a"
+	}
+}

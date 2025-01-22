@@ -1,0 +1,7 @@
+{
+	"parent": "./iron_ingot_tinbox_3",
+	"textures": {
+		"0": "hc_tinbox_3a",
+		"1": "hc_tinbox_3_cover"
+	}
+}

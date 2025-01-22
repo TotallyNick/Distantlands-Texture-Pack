@@ -1,0 +1,55 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"biomes": [
+			"the_end",
+			"the_end"
+		],
+		"weather": [
+			"clear"
+		],
+		"worlds": [
+			"minecraft:the_end"
+		]
+	},
+	"decorations": {
+		"showMoon": false,
+		"showStars": false,
+		"showSun": false
+	},
+	"properties": {
+		"fade": {
+			"alwaysOn": true,
+			"endFadeIn": 0,
+			"endFadeOut": 0,
+			"startFadeIn": 0,
+			"startFadeOut": 0
+		},
+		"rotation": {
+			"axis": [
+				0.0,
+				90.0,
+				-90.0
+			],
+			"rotationSpeed": 0.98,
+			"static": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"shouldRotate": true
+	},
+	"schemaVersion": 2,
+	"textures": {
+		"bottom": "fabricskyboxes:sky/end_sky_bottom_end.png",
+		"east": "fabricskyboxes:sky/end_sky_east_end.png",
+		"north": "fabricskyboxes:sky/end_sky_north_end.png",
+		"south": "fabricskyboxes:sky/end_sky_south_end.png",
+		"top": "fabricskyboxes:sky/end_sky_top_end.png",
+		"west": "fabricskyboxes:sky/end_sky_west_end.png"
+	},
+	"type": "square-textured"
+}

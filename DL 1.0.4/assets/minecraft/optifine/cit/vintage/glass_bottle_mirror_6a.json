@@ -1,0 +1,6 @@
+{
+	"parent": "./glass_bottle_mirror_6",
+	"textures": {
+		"0": "hc_mirror_6a"
+	}
+}

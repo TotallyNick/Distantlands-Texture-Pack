@@ -1,0 +1,7 @@
+{
+	"parent": "./white_wool_kebaya_1",
+	"textures": {
+		"0": "hc_kebaya_1a",
+		"1": "hc_mannequin_1"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "./hc_cit_tablerunner",
+	"textures": {
+		"0": "hc_tablerunner_1_top",
+		"1": "hc_tablerunner_1_side",
+		"particle": "hc_tablerunner_1_top"
+	},
+	"elements": [
+		{
+			"from": [-16, 16.02, -16],
+			"to": [0, 16.02, 0.04],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-16, 0.02, -16],
+			"to": [0, 16.02, -16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-16, 0.02, 0.04],
+			"to": [0, 16.02, 0.04],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

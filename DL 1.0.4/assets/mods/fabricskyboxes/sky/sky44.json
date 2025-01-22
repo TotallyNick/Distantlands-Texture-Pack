@@ -1,0 +1,55 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"biomes": [
+			"the_void",
+			"the_void"
+		],
+		"weather": [
+			"clear",
+			"clear"
+		],
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"endFadeIn": 23833,
+			"endFadeOut": 12000,
+			"startFadeIn": 23583,
+			"startFadeOut": 11750
+		},
+		"rotation": {
+			"axis": [
+				0.0,
+				90.0,
+				-0.0
+			],
+			"rotationSpeed": 1.2,
+			"static": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"shouldRotate": false
+	},
+	"schemaVersion": 2,
+	"textures": {
+		"bottom": "fabricskyboxes:sky/rain_shift_bottom.png",
+		"east": "fabricskyboxes:sky/rain_shift_east.png",
+		"north": "fabricskyboxes:sky/rain_shift_north.png",
+		"south": "fabricskyboxes:sky/rain_shift_south.png",
+		"top": "fabricskyboxes:sky/rain_shift_top.png",
+		"west": "fabricskyboxes:sky/rain_shift_west.png"
+	},
+	"type": "square-textured"
+}

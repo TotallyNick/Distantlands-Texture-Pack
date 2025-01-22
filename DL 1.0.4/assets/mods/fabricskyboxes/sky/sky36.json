@@ -1,0 +1,65 @@
+{
+	"blend": {
+		"type": "multiply"
+	},
+	"conditions": {
+		"biomes": [
+			"snowy_beach",
+			"frozen_ocean",
+			"deep_frozen_ocean",
+			"cold_ocean",
+			"deep_cold_ocean",
+			"frozen_river",
+			"snowy_taiga",
+			"snowy_plains",
+			"snowy_slopes",
+			"ice_spikes",
+			"ice_spikes"
+		],
+		"weather": [
+			"rain",
+			"thunder",
+			"thunder"
+		],
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"endFadeIn": 6017,
+			"endFadeOut": 6000,
+			"startFadeIn": 6000,
+			"startFadeOut": 5983
+		},
+		"rotation": {
+			"axis": [
+				-0.0,
+				-90.0,
+				0.0
+			],
+			"rotationSpeed": -1.0,
+			"static": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"shouldRotate": true
+	},
+	"schemaVersion": 2,
+	"textures": {
+		"bottom": "fabricskyboxes:sky/snow_bottom.png",
+		"east": "fabricskyboxes:sky/snow_east.png",
+		"north": "fabricskyboxes:sky/snow_north.png",
+		"south": "fabricskyboxes:sky/snow_south.png",
+		"top": "fabricskyboxes:sky/snow_top.png",
+		"west": "fabricskyboxes:sky/snow_west.png"
+	},
+	"type": "square-textured"
+}

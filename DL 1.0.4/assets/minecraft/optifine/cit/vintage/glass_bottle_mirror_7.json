@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "./hc_cit_wall",
+	"texture_size": [16, 24],
+	"textures": {
+		"0": "hc_mirror_7",
+		"particle": "hc_mirror_7"
+	},
+	"elements": [
+		{
+			"from": [1, 1, 0],
+			"to": [15, 25, 1],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"east": {"uv": [14, 0, 15, 16], "texture": "#0"},
+				"south": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"west": {"uv": [1, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [1, 0, 15, 0.66667], "texture": "#0"},
+				"down": {"uv": [1, 15.33333, 15, 16], "texture": "#0"}
+			}
+		}
+	]
+}

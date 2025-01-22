@@ -1,0 +1,6 @@
+{
+	"parent": "./oak_planks_largetable_4",
+	"textures": {
+		"0": "hc_stripped_acacia_log"
+	}
+}

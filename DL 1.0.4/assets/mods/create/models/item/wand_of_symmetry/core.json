@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "create:item/wand_of_symmetry/item",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "create:block/vault_side",
+		"particle": "create:block/vault_side"
+	},
+	"elements": [
+		{
+			"name": "Rod Core",
+			"from": [7, 18, 7],
+			"to": [9, 26, 9],
+			"faces": {
+				"north": {"uv": [10, 4, 12, 12], "texture": "#1"},
+				"east": {"uv": [13, 4, 15, 12], "texture": "#1"},
+				"south": {"uv": [11, 4, 13, 12], "texture": "#1"},
+				"west": {"uv": [11, 4, 13, 12], "texture": "#1"},
+				"up": {"uv": [9.5, 6, 11.5, 8], "texture": "#1"},
+				"down": {"uv": [10, 6.5, 12, 8.5], "texture": "#1"}
+			}
+		}
+	]
+}

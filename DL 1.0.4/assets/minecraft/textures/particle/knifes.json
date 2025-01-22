@@ -1,0 +1,133 @@
+{
+	"__comment": "Designed by Harry with Cubik Studio for Distant Lands",
+	"textures": {
+		"knifes": "particle/knifes"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box78",
+			"from": [ 0, 8, 4.5714 ],
+			"to": [ 16, 9, 9.142828 ],
+			"faces": {
+				"down": { "uv": [ 0, 9.142857, 16, 4.571428 ], "texture": "#knifes" },
+				"up": { "uv": [ 0, 4.571428, 16, 9.142857 ], "texture": "#knifes" },
+				"north": { "uv": [ 16, 4.571428, 0, 5.714286 ], "texture": "#knifes" },
+				"south": { "uv": [ 0, 8, 16, 9.142857 ], "texture": "#knifes" },
+				"west": { "uv": [ 0, 4.571428, 1.142857, 9.142857 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 16, 9.142857, 14.85714, 4.571428 ], "texture": "#knifes", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box79",
+			"from": [ 1.1429, 8, 0 ],
+			"to": [ 3.428614, 9, 14.85714 ],
+			"faces": {
+				"down": { "uv": [ 1.142857, 14.85714, 3.428571, 0 ], "texture": "#knifes" },
+				"up": { "uv": [ 1.142857, 0, 3.428571, 14.85714 ], "texture": "#knifes" },
+				"north": { "uv": [ 3.428571, 0, 1.142857, 1.142858 ], "texture": "#knifes" },
+				"south": { "uv": [ 1.142857, 13.71429, 3.428571, 14.85714 ], "texture": "#knifes" },
+				"west": { "uv": [ 1.142857, 0, 2.285714, 14.85714 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 3.428571, 14.85714, 2.285714, 0 ], "texture": "#knifes", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box80",
+			"from": [ 2.2857, 8, 14.8571 ],
+			"to": [ 3.428557, 9, 15.99996 ],
+			"faces": {
+				"down": { "uv": [ 2.285714, 16, 3.428571, 14.85714 ], "texture": "#knifes" },
+				"up": { "uv": [ 2.285714, 14.85714, 3.428571, 16 ], "texture": "#knifes" },
+				"north": { "uv": [ 3.428571, 14.85714, 2.285714, 16 ], "texture": "#knifes" },
+				"south": { "uv": [ 2.285714, 14.85714, 3.428571, 16 ], "texture": "#knifes" },
+				"west": { "uv": [ 2.285714, 14.85714, 3.428572, 16 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 3.428571, 16, 2.285714, 14.85714 ], "texture": "#knifes", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box81",
+			"from": [ 5.7143, 8, 1.1429 ],
+			"to": [ 6.857157, 9, 12.57147 ],
+			"faces": {
+				"down": { "uv": [ 5.714286, 12.57143, 6.857143, 1.142858 ], "texture": "#knifes" },
+				"up": { "uv": [ 5.714286, 1.142858, 6.857143, 12.57143 ], "texture": "#knifes" },
+				"north": { "uv": [ 6.857143, 1.142858, 5.714286, 2.285715 ], "texture": "#knifes" },
+				"south": { "uv": [ 5.714286, 11.42857, 6.857143, 12.57143 ], "texture": "#knifes" },
+				"west": { "uv": [ 5.714286, 1.142858, 6.857143, 12.57143 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 6.857143, 12.57143, 5.714286, 1.142858 ], "texture": "#knifes", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box82",
+			"from": [ 6.8571, 8, 9.1429 ],
+			"to": [ 7.999957, 9, 11.42861 ],
+			"faces": {
+				"down": { "uv": [ 6.857143, 11.42857, 8, 9.142857 ], "texture": "#knifes" },
+				"up": { "uv": [ 6.857143, 9.142857, 8, 11.42857 ], "texture": "#knifes" },
+				"north": { "uv": [ 8, 9.142857, 6.857143, 10.28571 ], "texture": "#knifes" },
+				"south": { "uv": [ 6.857143, 10.28571, 8, 11.42857 ], "texture": "#knifes" },
+				"west": { "uv": [ 6.857143, 9.142857, 8, 11.42857 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 8, 11.42857, 6.857143, 9.142857 ], "texture": "#knifes", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box83",
+			"from": [ 11.4286, 8, 0 ],
+			"to": [ 13.71431, 9, 14.85714 ],
+			"faces": {
+				"down": { "uv": [ 11.42857, 14.85714, 13.71429, 0 ], "texture": "#knifes" },
+				"up": { "uv": [ 11.42857, 0, 13.71429, 14.85714 ], "texture": "#knifes" },
+				"north": { "uv": [ 13.71429, 0, 11.42857, 1.142858 ], "texture": "#knifes" },
+				"south": { "uv": [ 11.42857, 13.71429, 13.71429, 14.85714 ], "texture": "#knifes" },
+				"west": { "uv": [ 11.42857, 0, 12.57143, 14.85714 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 13.71429, 14.85714, 12.57143, 0 ], "texture": "#knifes", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box84",
+			"from": [ 13.7143, 8, 9.1429 ],
+			"to": [ 14.85716, 9, 14.85719 ],
+			"faces": {
+				"down": { "uv": [ 13.71429, 14.85714, 14.85714, 9.142857 ], "texture": "#knifes" },
+				"up": { "uv": [ 13.71429, 9.142857, 14.85714, 14.85714 ], "texture": "#knifes" },
+				"north": { "uv": [ 14.85714, 9.142857, 13.71429, 10.28571 ], "texture": "#knifes" },
+				"south": { "uv": [ 13.71429, 13.71429, 14.85714, 14.85714 ], "texture": "#knifes" },
+				"west": { "uv": [ 13.71429, 9.142857, 14.85714, 14.85714 ], "texture": "#knifes", "rotation": 270 },
+				"east": { "uv": [ 14.85714, 14.85714, 13.71428, 9.142857 ], "texture": "#knifes", "rotation": 270 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.1, 0.1, 0.1 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.1, 0.1, 0.1 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 76, -7, 0 ],
+			"translation":  [ 0, 2.0869, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 76, -7, 0 ],
+			"translation":  [ 0, 2.0869, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 90, 0, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, 0, 0 ],
+			"scale":  [ 1.7, 1.7, 1.7 ]
+		}
+	}
+}

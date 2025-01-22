@@ -1,0 +1,6 @@
+{
+	"parent": "./iron_ingot_jewelrybox_4",
+	"textures": {
+		"0": "hc_jewelrybox_4a"
+	}
+}

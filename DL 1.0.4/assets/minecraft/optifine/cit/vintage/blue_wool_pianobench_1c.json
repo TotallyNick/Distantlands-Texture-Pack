@@ -1,0 +1,7 @@
+{
+	"parent": "./white_wool_pianobench_1",
+	"textures": {
+		"0": "block/blue_wool",
+		"1": "block/stripped_dark_oak_log"
+	}
+}

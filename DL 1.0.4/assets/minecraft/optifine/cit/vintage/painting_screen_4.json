@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "./hc_cit_screen",
+	"texture_size": [16, 48],
+	"textures": {
+		"0": "hc_screen_1_flower1",
+		"1": "hc_screen_1_base",
+		"particle": "hc_screen_1_flower1"
+	},
+	"elements": [
+		{
+			"from": [0, -16, 7],
+			"to": [16, 24, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 13.33333], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 13.33333], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 13.33333], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 13.33333], "texture": "#1"},
+				"up": {"uv": [0, 15.33333, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 13.33333, 16, 14], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "./painting_portrait_2",
+	"textures": {
+		"0": "hc_portrait_1_up",
+		"2": "hc_portrait_2a",
+		"3": "hc_spruce_planks"
+	}
+}

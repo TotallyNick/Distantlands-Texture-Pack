@@ -1,0 +1,7 @@
+{
+	"parent": "./lantern_paper_1",
+	"textures": {
+		"0": "hc_paperlantern_1a_side",
+		"1": "hc_paperlantern_1a_top"
+	}
+}

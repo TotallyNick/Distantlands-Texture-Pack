@@ -1,0 +1,7 @@
+{
+	"parent": "./iron_ingot_tiffin_1",
+	"textures": {
+		"0": "hc_tiffin_1a",
+		"1": "hc_tiffin_carrier_1"
+	}
+}

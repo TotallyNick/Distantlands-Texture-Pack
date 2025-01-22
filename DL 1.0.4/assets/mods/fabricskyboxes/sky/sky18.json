@@ -1,0 +1,92 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"biomes": [
+			"ocean",
+			"deep_ocean",
+			"frozen_ocean",
+			"deep_frozen_ocean",
+			"cold_ocean",
+			"deep_cold_ocean",
+			"lukewarm_ocean",
+			"deep_lukewarm_ocean",
+			"warm_ocean",
+			"river",
+			"frozen_river",
+			"beach",
+			"stony_shore",
+			"snowy_beach",
+			"forest",
+			"flower_forest",
+			"birch_forest",
+			"old_growth_birch_forest",
+			"dark_forest",
+			"jungle",
+			"sparse_jungle",
+			"taiga",
+			"snowy_taiga",
+			"old_growth_pine_taiga",
+			"old_growth_spruce_taiga",
+			"mushroom_fields",
+			"swamp",
+			"plains",
+			"sunflower_plains",
+			"snowy_plains",
+			"snowy_slopes",
+			"ice_spikes",
+			"windswept_hills",
+			"minecraft:nether_wastes",
+			"minecraft:crimson_forest",
+			"minecraft:warped_forest",
+			"minecraft:soul_sand_valley",
+			"minecraft:basalt_deltas",
+			"minecraft:basalt_deltas"
+		],
+		"weather": [
+			"clear",
+			"clear"
+		],
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"endFadeIn": 0,
+			"endFadeOut": 13750,
+			"startFadeIn": 22000,
+			"startFadeOut": 11750
+		},
+		"rotation": {
+			"axis": [
+				0.0,
+				90.0,
+				0.0
+			],
+			"rotationSpeed": 0.5,
+			"static": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"shouldRotate": true
+	},
+	"schemaVersion": 2,
+	"textures": {
+		"bottom": "fabricskyboxes:sky/sky_box_bottom.png",
+		"east": "fabricskyboxes:sky/sky_box_east.png",
+		"north": "fabricskyboxes:sky/sky_box_north.png",
+		"south": "fabricskyboxes:sky/sky_box_south.png",
+		"top": "fabricskyboxes:sky/sky_box_top.png",
+		"west": "fabricskyboxes:sky/sky_box_west.png"
+	},
+	"type": "square-textured"
+}

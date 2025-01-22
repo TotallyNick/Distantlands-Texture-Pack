@@ -1,0 +1,9 @@
+{
+	"parent": "./painting_screen_1",
+	"textures": {
+		"0": "hc_screen_1a_main",
+		"1": "hc_screen_1a_main",
+		"2": "hc_screen_1a_main",
+		"3": "hc_screen_1a_base"
+	}
+}

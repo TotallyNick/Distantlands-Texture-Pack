@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "./hc_cit_item",
+	"textures": {
+		"0": "hc_mirror_8",
+		"particle": "hc_mirror_8"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 2],
+			"to": [11, 1, 9],
+			"faces": {
+				"north": {"uv": [5, 2, 11, 3], "texture": "#0"},
+				"east": {"uv": [10, 2, 11, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 8, 11, 9], "texture": "#0"},
+				"west": {"uv": [5, 2, 6, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 2, 11, 9], "texture": "#0"},
+				"down": {"uv": [5, 2, 11, 9], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 0, 1],
+			"to": [10, 1, 2],
+			"faces": {
+				"north": {"uv": [6, 1, 10, 2], "texture": "#0"},
+				"east": {"uv": [9, 1, 10, 2], "texture": "#0"},
+				"west": {"uv": [6, 1, 7, 2], "texture": "#0"},
+				"up": {"uv": [6, 1, 10, 2], "texture": "#0"},
+				"down": {"uv": [6, 1, 10, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 0, 9],
+			"to": [9.5, 1, 10],
+			"faces": {
+				"east": {"uv": [9, 9, 10, 10], "texture": "#0"},
+				"south": {"uv": [6, 9, 9, 10], "texture": "#0"},
+				"west": {"uv": [6, 9, 7, 10], "texture": "#0"},
+				"up": {"uv": [7, 9, 10, 10], "texture": "#0"},
+				"down": {"uv": [7, 9, 10, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 12],
+			"to": [9, 1, 15],
+			"faces": {
+				"north": {"uv": [7, 12, 9, 13], "texture": "#0"},
+				"east": {"uv": [9, 12, 10, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 14, 9, 15], "texture": "#0"},
+				"west": {"uv": [6, 12, 7, 15], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7, 12, 9, 15], "texture": "#0"},
+				"down": {"uv": [7, 10, 9, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 0, 10],
+			"to": [8.5, 1, 12],
+			"faces": {
+				"east": {"uv": [8, 10, 9, 12], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [8, 10, 9, 12], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 10, 8, 12], "texture": "#0"},
+				"down": {"uv": [7, 10, 8, 12], "texture": "#0"}
+			}
+		}
+	]
+}

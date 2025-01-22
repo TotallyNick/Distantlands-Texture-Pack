@@ -1,0 +1,8 @@
+# Made in Blockbench 3.8.4
+newmtl m_2
+map_Kd Flag_Pole.png 
+newmtl m_3
+map_Kd Flag_Stone.png 
+newmtl m_5
+map_Kd Flag_White.png 
+newmtl none

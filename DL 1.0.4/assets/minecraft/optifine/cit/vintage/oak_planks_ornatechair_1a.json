@@ -1,0 +1,7 @@
+{
+	"parent": "./oak_planks_ornatechair_1",
+	"textures": {
+		"0": "hc_ornatechair_1a_back",
+		"1": "hc_ornatechair_1a_base"
+	}
+}

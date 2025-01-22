@@ -1,0 +1,6 @@
+{
+	"parent": "./peony_vase_1",
+	"textures": {
+		"0": "hc_vase_1a"
+	}
+}

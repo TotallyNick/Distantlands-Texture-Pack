@@ -1,0 +1,6 @@
+{
+	"parent": "./oak_planks_largetable_3",
+	"textures": {
+		"0": "block/stripped_dark_oak_log"
+	}
+}
